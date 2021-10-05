@@ -1,0 +1,22 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <title>{{title_page}}</title>
+
+  <link rel="shortcut icon" href="https://raw.githubusercontent.com/Ahlat85/data85/master/img/masjid.ico">
+
+  {% include "snippets/styles.html" %}
+</head>
+<body>
+  {% include "snippets/nav.html" %}
+
+  <div id="content" class="container">
+    {% block content %}
+    {% endblock content %}
+  </div>
+  
+  {% include "snippets/footer.html" %}
+
+  {% include "snippets/scripts.html" %}
+</body>
+</html>
